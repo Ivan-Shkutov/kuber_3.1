@@ -79,12 +79,12 @@
 
 3. Суммарные ресурсы (без запаса)
 
-Компонент	      RAM        	CPU
-БД	            12 ГБ      	3
-Кеш	            12 ГБ      	3
-Backend	        6 ГБ    	  10
-Frontend	      0.25 ГБ  	  1
-ИТОГО	          30.25 ГБ  	17 CPU
+        Компонент	      RAM        	CPU
+        БД	            12 ГБ      	3
+        Кеш	            12 ГБ      	3
+        Backend	        6 ГБ    	  10
+        Frontend	      0.25 ГБ  	  1
+        ИТОГО	          30.25 ГБ  	17 CPU
 
 4. Добавим служебные ресурсы Kubernetes
 
@@ -155,10 +155,10 @@ Stateless pool
 
 ИТОГО
 
-Тип        	  Количество     	CPU        	RAM
-Stateful	    3              	4          	16 ГБ
-Stateless	    3              	8          	16 ГБ
-Всего нод    	6              	36 CPU    	96 ГБ RAM
+    Тип        	  Количество     	CPU        	RAM
+    Stateful	    3              	4          	16 ГБ
+    Stateless	    3              	8          	16 ГБ
+    Всего нод    	6              	36 CPU    	96 ГБ RAM
 
 
 
